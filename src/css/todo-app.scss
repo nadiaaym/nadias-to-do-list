@@ -1,0 +1,22 @@
+.todo-app {
+    width: 500px;
+    height: 80%;
+    border: 1px solid black;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-input {
+height: 50px
+}
+
+.todo-sections {
+height: 50px;
+}
+
+.todo-list {
+height: 100%;
+}
