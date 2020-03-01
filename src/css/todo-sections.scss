@@ -1,0 +1,20 @@
+.todo-sections {
+    display: flex;
+    > button {
+        flex: 1;
+        cursor: pointer;
+        background-color: white;
+        border-radius: 1px solid #ccc;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: grey;
+            color: white;
+        }
+
+        &:active {
+            background-color: greenyellow;
+        }
+
+    }
+}
