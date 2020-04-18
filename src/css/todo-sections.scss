@@ -15,6 +15,9 @@
         &:active {
             background-color: greenyellow;
         }
-
     }
+}
+
+.todo-sections button .active {
+    flex-grow: 4;
 }

@@ -1,0 +1,20 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .todo-item {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        border: 1px solid #eee;
+
+        span {
+            width: 100%;
+        }
+
+        button {
+            width: 50px;
+        }
+    }
+}
